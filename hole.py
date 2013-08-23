@@ -1,4 +1,10 @@
+#----------------------------------------------------------------------
+#Fatemeh Chegini
+#simple example for peogen and hole by using Z3PY
+#----------------------------------------------------------------------
+
 from z3 import *
+
 
 inHole1 = Function('inHole1', IntSort(), IntSort(),BoolSort())
 inHole2 = Function('inHole2', IntSort(), IntSort(),BoolSort())
